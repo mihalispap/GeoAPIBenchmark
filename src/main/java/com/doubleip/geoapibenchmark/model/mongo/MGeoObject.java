@@ -16,6 +16,12 @@ public class MGeoObject {
     public MGeoObject() {
     }
 
+    public MGeoObject(String id, Double longitude, Double latitude) {
+        this.id = id;
+        this.longitude = longitude;
+        this.latitude = latitude;
+    }
+
     public String getId() {
         return id;
     }
